@@ -92,3 +92,38 @@ header{
 .networks_icon img{
     width:80%;
 }
+
+
+
+
+/* Block main_image */
+
+.main_image{
+    width:100%;
+    height:500px;
+    background-color: red;
+    position: absolute;
+    top:100px;
+    left:0px;
+}
+
+.main_image img{
+    position: absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height: 600px;
+}
+
+
+.main_caption{
+    width:40%;
+    height:50px;
+    position:absolute;
+    top:200px;
+    left:30%;
+    font-size:60px;
+    font-weight: bold;
+    color:blue;
+    text-align:center;
+}
