@@ -15,7 +15,7 @@ header{
     height:100px;
     background-color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items:center;
 }
 
@@ -37,21 +37,15 @@ header{
 
  .header_search{
     height:40px;
+    width:30%;
     display:flex;
     align-items:center;
     margin-right:40px;
+    justify-content: end;
 }
-
-
-.header_search:hover{
-    cursor: pointer;
-    box-shadow: 5px 5px 5px lightgrey;
-}
-
-
 
 #search_btn{
-    padding-right:30px;
+    padding-right:10px;
     border:none;
     background-color: white;
     text-align:left;
@@ -63,7 +57,6 @@ header{
 
 .header_search img{
     position: absolute;
-    margin-left: 70px;
     margin-top: 0px;
     z-index: 1;
     width:2%;
@@ -73,4 +66,26 @@ header{
 #search_btn:hover{
     cursor:pointer;
     color:black;
+}
+
+
+
+.networks_icon{
+    height:40px;
+    width:30%;
+    font-size:20px;
+    color:darkgray;
+    font-weight: bold;
+    display:inline-flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+
+.networks_icon a:hover{
+    cursor: pointer;
+}
+
+.networks_icon img{
+    width:80%;
 }
