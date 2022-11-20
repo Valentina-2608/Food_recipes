@@ -341,3 +341,55 @@ footer{
     padding:20px;
     color:white;
 }
+
+
+
+/* Modal */
+
+.modal{
+    width:100%;
+    height:2600px;
+    background-color: white;
+    position:absolute;
+    top:0px;
+    left:0px;
+    display:none;
+    -webkit-animation:effects 2s linear;
+    animation:effects 1.5s linear;
+}
+
+
+
+@-webkit-keyframes effects {
+    0%{opacity:0;}
+	25%{opacity:0.25;}
+    50%{opacity:0.5;}
+	75%{opacity:0.75;}
+	100%{opacity:1;}
+}
+
+@keyframes effects {
+    0%{opacity:0;}
+	25%{opacity:0.25;}
+    50%{opacity:0.5;}
+	75%{opacity:0.75;}
+	100%{opacity:1;}
+}
+
+
+.content{
+    width:50%;
+    height:200px;
+    background-color: blueviolet;
+    position:absolute;
+    top:160px;
+    left:25%;
+}
+
+
+.close_modal{
+    font-size:20px;
+    font-weight:bold;
+    margin-left:96%;
+    margin-top:5px;
+    cursor:pointer;}
