@@ -127,6 +127,22 @@ header{
     text-align:center;
 }
 
+#input_find{
+    position: absolute;
+    height:50px;
+    width:35%;
+    top:310px;
+    left:30%;
+    border:none;
+    box-shadow:5px 5px 7px gray;
+    background-image:url('../img/icon_search.png');
+    background-position:left;
+    background-size: 35px;
+    padding-left:40px;
+    background-repeat: no-repeat;
+    opacity:0.7;
+}
+
 
 
 /* Block articles */
