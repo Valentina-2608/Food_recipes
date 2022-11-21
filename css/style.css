@@ -138,7 +138,9 @@ header{
     opacity:0.7;
 }
 
-
+#input_find:hover{
+    cursor:pointer;
+}
 
 /* Block articles */
 
