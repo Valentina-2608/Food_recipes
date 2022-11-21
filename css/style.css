@@ -114,7 +114,7 @@ header{
     width:40%;
     height:50px;
     position:absolute;
-    top:200px;
+    top:150px;
     left:30%;
     font-size:60px;
     font-weight: bold;
@@ -126,7 +126,7 @@ header{
     position: absolute;
     height:50px;
     width:35%;
-    top:310px;
+    top:250px;
     left:30%;
     border:none;
     box-shadow:5px 5px 7px gray;
@@ -343,8 +343,9 @@ footer{
 
 .modal{
     width:100%;
-    height:2660px;
+    height:2670px;
     background-color: white;
+    opacity:0.96;
     position:absolute;
     top:0px;
     left:0px;
@@ -375,9 +376,8 @@ footer{
 .content{
     width:50%;
     height:200px;
-    background-color: blueviolet;
     position:absolute;
-    top:160px;
+    top:200px;
     left:25%;
 }
 
@@ -388,3 +388,19 @@ footer{
     margin-left:96%;
     margin-top:5px;
     cursor:pointer;}
+
+
+
+#recipe_search{
+    width:70%;
+    height:50px;
+    position:absolute;
+    top:60px;
+    left:15%;
+    border:none;
+    border-bottom: 1px solid gray;
+}
+
+#recipe_search::placeholder{
+    font-size:30px;
+}
