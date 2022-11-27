@@ -11,6 +11,8 @@ search_btn.addEventListener('click', openWindowSearch);
 input_find.addEventListener('click', openWindowSearch);
 close_modal.addEventListener('click', closeModal);
 	
+
+/* Open window */
 function openWindowSearch(){
      modal.style.display = "block"; 
 }
