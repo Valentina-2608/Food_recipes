@@ -152,12 +152,19 @@ header{
     color:darkred;
 }
 
+.advanced_search a{
+    color:darkred;
+    text-decoration: none;
+}
 
 .advanced_search:hover{
     cursor:pointer;
     text-decoration: underline;
 }
 /* Block articles */
+
+
+
 
 
 .articles{
