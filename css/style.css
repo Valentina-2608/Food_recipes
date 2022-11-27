@@ -421,3 +421,16 @@ footer{
 #recipe_search::placeholder{
     font-size:30px;
 }
+
+
+
+
+/* Page search */
+
+.search_main{
+    width:100%;
+    height:2600px;
+    display: flex;
+    margin:0 auto;
+    background-color:beige;
+}
