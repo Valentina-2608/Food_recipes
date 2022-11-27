@@ -462,13 +462,40 @@ footer{
 }
 
 
-#search_recipe{
-    width:30%;
-    height:30%;
+.elements_recipes{
+    width:35%;
+    height:45px;
+    background-color: white;
     margin-left:20px;
     margin-right:20px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.elements_recipes img{
+    width:60%;
+}
+
+
+#search_recipe{
+    width:80%;
+    height:30px;
+    padding:5px;  
     border:none;
-    padding:5px;
+    font-size:16px;
+}
+
+#search_recipe:focus{
+    outline: none;
+}
+
+
+.add_ingredients{
+    width:30%;
+    display:flex;
+    justify-content: start;
+    align-items: center;
 }
 
 
@@ -484,10 +511,32 @@ footer{
     text-decoration: underline;
 }
 
+.show_input{
+    width:70%;
+    height:45px;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    display: none;
+}
+
+
+.show_input img{
+    width:55%;
+    padding-left:10px;
+}
+
 
 #search_ingredients{
-    display:none;
-    border:none;
     height:30px;
+    width:90%;
     padding:5px;
+    border:none;
+    font-size:16px;
+    margin-left:0px;
+}
+
+#search_ingredients:focus{
+    outline: none;
 }
