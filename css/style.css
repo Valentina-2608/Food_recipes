@@ -434,3 +434,53 @@ footer{
     margin:0 auto;
     background-color:beige;
 }
+
+.search_header{
+    width:100%;
+    height:100px;
+    position:fixed;
+    top:0px;
+    left:0px;
+    background-color: #FFB573;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+
+.header_caption{
+    font-size:30px;
+    color:darkred;
+    font-weight: bold;
+}
+
+
+#search_recipe{
+    width:30%;
+    height:30%;
+    margin-left:20px;
+    margin-right:20px;
+    border:none;
+    padding:5px;
+}
+
+
+
+.show_ing{
+    font-size:18px;
+    color:#5D2D01;
+    font-weight: bold;
+}
+
+.show_ing:hover{
+    cursor:pointer;
+    text-decoration: underline;
+}
+
+
+#search_ingredients{
+    display:none;
+    border:none;
+    height:30px;
+    padding:5px;
+}
