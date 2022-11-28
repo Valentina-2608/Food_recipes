@@ -550,4 +550,25 @@ footer{
     top:90px;
     left:0px;
     background-color: #FFB573;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+
+.find_recipes, .find_ingredients{
+    margin-right:40px;
+    font-size:18px;
+}
+
+#btn_clear{
+    border:none;
+    padding:5px; 
+    background-color: #FFB573;
+    font-size:16px;
+}
+
+
+#btn_clear:hover{
+    cursor:pointer;
 }
