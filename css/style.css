@@ -541,6 +541,13 @@ footer{
     outline: none;
 }
 
+.icon_search:hover{
+    cursor:pointer;
+}
+
+.add_ing:hover{
+    cursor:pointer;
+}
 
 
 .info_search{
@@ -566,6 +573,8 @@ footer{
     padding:5px; 
     background-color: #FFB573;
     font-size:16px;
+    color:darkred;
+    font-weight:bold;
 }
 
 
