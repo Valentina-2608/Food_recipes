@@ -540,3 +540,14 @@ footer{
 #search_ingredients:focus{
     outline: none;
 }
+
+
+
+.info_search{
+    width:100%;
+    height:50px;
+    position:fixed;
+    top:90px;
+    left:0px;
+    background-color: #FFB573;
+}
