@@ -560,12 +560,14 @@ footer{
     display: flex;
     justify-content: center;
     align-items:center;
+    display: none;
 }
 
 
 .find_recipes, .find_ingredients{
-    margin-right:40px;
+    width:25%;
     font-size:18px;
+    font-weight: bold;
 }
 
 #btn_clear{
