@@ -583,3 +583,11 @@ footer{
 #btn_clear:hover{
     cursor:pointer;
 }
+
+
+
+.search_result{
+    width:110%;
+    height:1500px;
+    background-color:black;
+}
