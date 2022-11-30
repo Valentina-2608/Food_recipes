@@ -33,6 +33,7 @@ function showInfoRecipes(){
         find_recipes.innerHTML += ' ' + search_recipe.value;
     }else{
         alert('Please enter recipe');
+        info_search.style.display = 'none';
     }
 }
 
@@ -52,4 +53,6 @@ function hideInfo(){
     info_search.style.display = 'none';
     find_recipes.innerHTML = 'Recipes of';
     find_ingredients.innerHTML = 'ingredients';
+    search_recipe.value = '';
+    search_ingredients.value = '';
 }
