@@ -609,6 +609,7 @@ footer{
     display:flex;
     justify-content: space-around;
     background-color: gray;
+    flex-wrap:wrap;
 }
 
 
@@ -616,7 +617,7 @@ footer{
 
 .recipe_card{
     width:22%;
-    height:280px;
+    height:300px;
     background-color: black;
     color:white;
 }
