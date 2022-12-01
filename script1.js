@@ -56,3 +56,45 @@ function hideInfo(){
     search_recipe.value = '';
     search_ingredients.value = '';
 }
+
+
+
+/* Create list of recipes */
+
+function createRecipe(elem, elem_image, elem_caption, elem_ingredients){
+    let parent = document.getElementById('recipes');
+    let new_recipe = document.createElement('div');
+    new_recipe.classList.add('recipe_card');
+    parent.appendChild(new_recipe);
+
+
+    /* Add image */
+    let recipe_image = document.createElement('img');
+    recipe_image.classList.add('recipe_image');
+    recipe_image.src = elem_image;
+    new_recipe.appendChild(recipe_image);
+
+
+    /* Add caption */
+	let recipe_caption = document.createElement('div');
+	recipe_caption.classList.add('recipe_caption');
+	recipe_caption.innerHTML = elem_caption;
+	new_recipe.appendChild(recipe_caption);
+	
+	/* Add ingredients */
+	let recipe_ingredients = document.createElement('div');
+	recipe_ingredients.classList.add('recipe_ingredients');
+	recipe_ingredients.innerHTML = 'Ingredients: ' + elem_ingredients;
+	new_recipe.appendChild(recipe_ingredients);
+
+}
+
+
+
+
+function load(){
+	let myRecipes = JSON.parse(recipes);
+    for(let recipe of myRecipes){
+        createRecipe(recipe, recipe.image, recipe.caption, recipe.ingredients);
+}
+}
