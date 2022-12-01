@@ -1,5 +1,6 @@
 /* Styles */
 
+
 .main{
     width:100%;
     height:2600px;
@@ -438,14 +439,14 @@ footer{
     width:100%;
     height:2600px;
     display: flex;
-    margin:0 auto;
-    background-color:beige;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .search_header{
     width:100%;
     height:100px;
-    position:fixed;
+    position:absolute;
     top:0px;
     left:0px;
     background-color: #FFB573;
@@ -585,9 +586,42 @@ footer{
 }
 
 
-
-.search_result{
-    width:110%;
+.block_search{
+    width:100%;
     height:1500px;
-    background-color:black;
+    position:absolute;
+    top:180px;
+    left:0px;
+
+}
+
+.message{
+    width:100%;
+    height:50px;
+    background-color:blue;
+}
+
+
+#recipes{
+    width:100%;
+    height:1500px;
+    margin-top:30px;
+    display:flex;
+    justify-content: space-around;
+    background-color: gray;
+}
+
+
+
+
+.recipe_card{
+    width:22%;
+    height:280px;
+    background-color: black;
+    color:white;
+}
+
+
+.recipe_card img{
+    width:100%;
 }
