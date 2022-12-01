@@ -5,8 +5,9 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/style.css">
+	<script src="recipes.js"></script>
 </head>
-<body>
+<body onload="load()">
 <div class="search_main">
 	<header class="search_header">
 		<div class="header_caption">
@@ -35,8 +36,8 @@
 		<div class="find_ingredients">Ingredients:</div>
 		<button id="btn_clear">Clear all</button>
 	</div>
-	<div class="search_result">
-		
+	<div class="block_search">
+		<div id="recipes"></div>
 	</div>
 </div>
 <script src="script1.js"></script>
