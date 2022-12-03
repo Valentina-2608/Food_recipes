@@ -2,7 +2,7 @@ let recipes = `[
     { 
         "id":1,
         "image":"img/black_cake.jpg",
-        "caption": "Black cake",
+        "caption": "Black Cake",
         "ingredients": "prune, current, cherriesm raisins, citrus peel, cherry brandy, sugar, flower, eggs, lemon"
     },
 
@@ -21,7 +21,7 @@ let recipes = `[
     { 
         "id":4,
         "image":"img/sticky_pudding.jpg",
-        "caption": "Sticky toffee apple pudding",
+        "caption": "Sticky Toffee Apple Pudding",
         "ingredients": "butter, flour, sugar, baking powder, milk, egg, bramley apples, vanille extract"
     },
     { 
@@ -39,7 +39,7 @@ let recipes = `[
     { 
         "id":6,
         "image":"img/honey_cake.jpg",
-        "caption": "Honey cake",
+        "caption": "Honey Cake",
         "ingredients": "flour, baking powder, butter, honey, eggs, milk, orange zest, almond flakes, lemon juice, water"
     },
     { 
@@ -113,6 +113,115 @@ let recipes = `[
         "image":"img/s_s_salad.jpg",
         "caption": "Spinach and Strawberry Salad",
         "ingredients": "spinach, strawberries, sugar, white wine vinegar, sesame seeds, poppy seeds"
-     }
+     },
+     { 
+        "id":14,
+        "image":"img/roast_chicken.jpg",
+        "caption": "Roast Chicken",
+        "ingredients": "chicken, salt, pepper, onion powder, celery"
+     },
+     { 
+        "id":15,
+        "image":"img/smoked_chicken_drumsticks.jpg",
+        "caption": "Smoked Chicken Drumsticks",
+        "ingredients": "chicken drumsticks, vegetable oil"
+     },
+     { 
+        "id":16,
+        "image":"img/marmalade_chicken.jpg",
+        "caption": "Orange Marmalade Chicken",
+        "ingredients": "chicken drumsticks, salt, pepper, orange marmalade, barbeque sauce, soy sauce"
+     },
+     { 
+        "id":17,
+        "image":"img/apricot_chicken.jpeg",
+        "caption": "Apricot Chicken Curry",
+        "ingredients": "chicken drumsticks, salt, pepper, olive oil, garlic, apricot nectar, dried apricots, onion, carrots, water chestnuts"
+     },
+     { 
+        "id":17,
+        "image":"img/lemon_chicken.jpg",
+        "caption": "Italian Chicken with Garlic and Lemon",
+        "ingredients": "chicken drumsticks, potatoes, wine vinegar, lemons, garlic, oregano, onion, parsley, salt, pepper"
+     },
+     { 
+        "id":18,
+        "image":"img/coconut_chicken.jpg",
+        "caption": "Green Coconut Chicken",
+        "ingredients": "Chicken legs, salt, vegetable oil, coconut milk, garlic, pepper, cilantro, onion, ginger, lemon juice, sweet potato"
+    },
+    { 
+        "id":19,
+        "image":"img/grapefruit_chicken.jpeg",
+        "caption": "Roast Chicken with Grapefruit",
+        "ingredients": "red grapefruit, chicken, pepper, parsley, bacon, olive oil, cognac or brandy, "
+    },
+    { 
+        "id":20,
+        "image":"img/roast_turkey.jpeg",
+        "caption": "Roast turkey",
+        "ingredients": "Turkey, salt, pepper, turkey stock"
+    },
+    { 
+        "id":21,
+        "image":"img/grill_turkey.jpg",
+        "caption": "Gas Grill Turkey",
+        "ingredients": "Turkey, water, butter, salt, chicken bouillon granules, black pepper"
+    },
+    { 
+        "id":22,
+        "image":"img/turkey_and_apples.jpg",
+        "caption": "Apple-Stuffed Turkey",
+        "ingredients": "Turkey, vegetable oil, apples, unpeeled apples"
+    },
+    { 
+        "id":23,
+        "image":"img/honey_turkey.jpg",
+        "caption": "Honey-Smoked Turkey",
+        "ingredients": "Turkey, honey, vegetable oil, pepper, salt, fresh basil, salt"
+    },
+    { 
+        "id":24,
+        "image":"img/tuna_steak.jpg",
+        "caption": "Marinated Tuna Steak",
+        "ingredients": "orange juice, soy sauce, olive oil, parsley, lemon juice, garlic, fresh oregano, tuna steaks"
+        
+    },
+    { 
+        "id":25,
+        "image":"img/grilled_salmon.jpg",
+        "caption": "Grilled Salmon",
+        "ingredients": "salmon, black pepper, garlic powder, soy sauce, brown sugar, water, vegetable oil "
+    },
+    { 
+        "id":26,
+        "image":"img/maple_salmon.jpg",
+        "caption": "Maple Salmon",
+        "ingredients": "maple syrup, soy sauce, garlic, seasonings, salmon "
+    },
+    { 
+        "id":26,
+        "image":"img/cedar_salmon.jpeg",
+        "caption": "Cedar Planked Salmon",
+        "ingredients": "soy sauce, vegetable oil, rice vinegar, sesame oil, green onions, garlic, salmon fillets"
+    },
+    { 
+        "id":27,
+        "image":"img/haddock.jpg",
+        "caption": "Simple Broiled Haddock",
+        "ingredients": " haddock fillets, onion powder, paprika, garlic powder, black pepper, salt, butter, lemon"
+    },
+    { 
+        "id":27,
+        "image":"img/flounder.jpg",
+        "caption": "Baked Flounder with Panko and Parmesan",
+        "ingredients": "flounder fillets, butter, bread crumbs, Parmesan cheese, salt, ground black pepper"
+    },
+    { 
+        "id":27,
+        "image":"img/fish_chips.jpg",
+        "caption": "Classic Fish and Chips",
+        "ingredients": "potatoes,flour, baking powder, salt,  black peppe, milk, egg, vegetable oil, cod fillets"
+    }
 
     ]`
