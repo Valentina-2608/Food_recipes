@@ -212,16 +212,51 @@ let recipes = `[
         "ingredients": " haddock fillets, onion powder, paprika, garlic powder, black pepper, salt, butter, lemon"
     },
     { 
-        "id":27,
+        "id":28,
         "image":"img/flounder.jpg",
         "caption": "Baked Flounder with Panko and Parmesan",
         "ingredients": "flounder fillets, butter, bread crumbs, Parmesan cheese, salt, ground black pepper"
     },
     { 
-        "id":27,
-        "image":"img/fish_chips.jpg",
-        "caption": "Classic Fish and Chips",
-        "ingredients": "potatoes,flour, baking powder, salt,  black peppe, milk, egg, vegetable oil, cod fillets"
+        "id":29,
+        "image":"img/cheese_soup.jpg",
+        "caption": "Creamy Slow Cooker Potato Cheese Soup",
+        "ingredients": "butter, onion, flour, water, carrots, celery, chicken soup base, potatoes ,Cheddar cheese, cooked bacon"
+    },
+    { 
+        "id":30,
+        "image":"img/tomato_soup.jpg",
+        "caption": "Fresh Tomato Soup",
+        "ingredients": "tomatoes, onion, clove, garlic, butter, chicken broth, salt, flour"
+    },
+    { 
+        "id":31,
+        "image":"img/ham_soup.jpg",
+        "caption": "Delicious Ham and Potato Soup",
+        "ingredients": "potatoes, ham, celery, onion, chicken bouillon granules, pepper, butter, flour, milk"
+    },
+    { 
+        "id":32,
+        "image":"img/turkey_soup.jpg",
+        "caption": "Hearty Barley Turkey Soup",
+        "ingredients": "turkey. onion, carrot, celery, peppercorns, dried thyme, water, barley"
+    },
+    { 
+        "id":33,
+        "image":"img/vegetable_soup.jpg",
+        "caption": "Vegetable Soup",
+        "ingredients": "tomatoes, chicken broth, tomato-vegetable juice, carrots, potatoe, green beans, fresh corn kernels "
+    },
+    { 
+        "id":34,
+        "image":"img/broccoli_soup.jpg",
+        "caption": "Copycat Panera Broccoli Cheddar Soup",
+        "ingredients": "butter, onion, flour, milk, chicken stock, broccoli florets, carrots, Cheddar cheese, pepper"
+    },
+    { 
+        "id":35,
+        "image":"img/noodle_soup.jpg",
+        "caption": "Incredibly Easy Chicken and Noodles",
+        "ingredients": "chicken broth, chicken breast meat, onion powder, garlic powder,  frozen egg noodles"
     }
-
     ]`
