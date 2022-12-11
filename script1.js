@@ -96,5 +96,43 @@ function load(){
 	let myRecipes = JSON.parse(recipes);
     for(let recipe of myRecipes){
         createRecipe(recipe, recipe.image, recipe.caption, recipe.ingredients);
+       
 }
+ /* creating arr from nodelist */
+let recipe_cards = document.querySelectorAll('.recipe_card');
+let arr = [];
+for(let elem of recipe_cards){
+    arr.push(elem);
+   
+} 
+/* creating pagination */
+
+let pagination = document.getElementById('pagination');
+
+let cardsOnPage = 16;
+let countOfItems = arr.length/cardsOnPage;
+let items = [];
+
+for(let i = 1; i<= countOfItems; i++){
+    let li = document.createElement('li');
+    li.innerHTML = i;
+    pagination.appendChild(li)
+    items.push(li);
+}
+
+for(let item of items){
+    item.addEventListener('click', function(){
+        let pageNumber =+this.innerHTML;
+        console.log(typeof(pageNumber));
+        let start = (pageNumber - 1 ) * cardsOnPage;
+        let end = start + cardsOnPage;
+
+        let cards = arr.slice(start, end);
+        
+
+
+    });
+
+}
+
 }
