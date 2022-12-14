@@ -1,4 +1,4 @@
-let recipes = `[
+let recipes = [
     { 
         "id":1,
         "image":"img/black_cake.jpg",
@@ -387,4 +387,4 @@ let recipes = `[
     }
    
 
-    ]`
+    ]
