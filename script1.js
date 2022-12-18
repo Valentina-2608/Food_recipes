@@ -59,72 +59,87 @@ function hideInfo(){
 
 
 
-/* Create list of recipes */
+/* Create list of recipes and pagination */
 
 
 
 
 function load(){
 	let myRecipes = recipes;
-    console.log(typeof(myRecipes));
+    let pagination = document.getElementById('pagination');
 
+    let cardsOnPage = 16;
+    let countOfItems = Math.ceil(myRecipes.length/cardsOnPage);
+
+    let showPage = (function(){
+        let active;
+            return function(item){
     
-/* creating pagination */
+             if (active){
+                active.classList.remove('active_item');
+            }
 
-let pagination = document.getElementById('pagination');
+            active = item;
+            item.classList.add('active_item');
 
-let cardsOnPage = 16;
-let countOfItems = myRecipes.length/cardsOnPage;
+
+
+            let pageNumber =+item.innerHTML;
+             let start = (pageNumber - 1 ) * cardsOnPage;
+            let end = start + cardsOnPage;
+
+            let cards = myRecipes.slice(start, end);
+            let parent = document.getElementById('recipes');
+            parent.innerHTML = '';
+            for(let elem of cards){
+      
+                let new_recipe = document.createElement('div');
+                new_recipe.classList.add('recipe_card');
+                parent.appendChild(new_recipe);
+    
+    
+                /* Add image */
+                let recipe_image = document.createElement('img');
+                recipe_image.classList.add('recipe_image');
+                recipe_image.src = elem.image;
+                new_recipe.appendChild(recipe_image);
+    
+    
+                /* Add caption */
+                let recipe_caption = document.createElement('div');
+                recipe_caption.classList.add('recipe_caption');
+                recipe_caption.innerHTML = elem.caption;
+                new_recipe.appendChild(recipe_caption);
+        
+                /* Add ingredients */
+                let recipe_ingredients = document.createElement('div');
+                recipe_ingredients.classList.add('recipe_ingredients');
+                recipe_ingredients.innerHTML = 'Ingredients: ' + elem.ingredients;
+                new_recipe.appendChild(recipe_ingredients);
+         }
+    
+    };
+}());
+
+
 let items = [];
 
 /* pagination's items */
-for(let i = 1; i<= countOfItems; i++){
-    let li = document.createElement('li');
-    li.innerHTML = i;
-    pagination.appendChild(li)
-    items.push(li);
-}
+    for(let i = 1; i<= countOfItems; i++){
+        let li = document.createElement('li');
+        li.innerHTML = i;
+        pagination.appendChild(li)
+        items.push(li);
+    }
 
-for(let item of items){
-    item.addEventListener('click', function(){
-        let pageNumber =+this.innerHTML;
-        let start = (pageNumber - 1 ) * cardsOnPage;
-        let end = start + cardsOnPage;
+    showPage(items[0]);
 
-        let cards = myRecipes.slice(start, end);
+    for(let item of items){
+        item.addEventListener('click', function(){
+            showPage(this);
+        });
+    }
 
-        console.log(cards);
-        let parent = document.getElementById('recipes');
-        parent.innerHTML = '';
-        for(let elem of cards){
-          
-            let new_recipe = document.createElement('div');
-            new_recipe.classList.add('recipe_card');
-            parent.appendChild(new_recipe);
-        
-        
-            /* Add image */
-            let recipe_image = document.createElement('img');
-            recipe_image.classList.add('recipe_image');
-            recipe_image.src = elem.image;
-            new_recipe.appendChild(recipe_image);
-        
-        
-            /* Add caption */
-            let recipe_caption = document.createElement('div');
-            recipe_caption.classList.add('recipe_caption');
-            recipe_caption.innerHTML = elem.caption;
-            new_recipe.appendChild(recipe_caption);
-            
-            /* Add ingredients */
-            let recipe_ingredients = document.createElement('div');
-            recipe_ingredients.classList.add('recipe_ingredients');
-            recipe_ingredients.innerHTML = 'Ingredients: ' + elem.ingredients;
-            new_recipe.appendChild(recipe_ingredients);
-        }
-        
-    });
 
 }
 
-}
