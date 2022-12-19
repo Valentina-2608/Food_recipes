@@ -601,6 +601,29 @@ footer{
     background-color:blue;
 }
 
+.search_menu{
+    width:100%;
+    height:60px;
+    position:absolute;
+    top:90px;
+    left:0px;
+    background-color:darkred;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
+
+.search_menu li{
+    display:inline-block;
+    list-style-type: none;
+    margin-left:30px;
+    margin-right:30px;
+    font-size:18px;
+}
+
+
 
 #recipes{
     width:100%;
