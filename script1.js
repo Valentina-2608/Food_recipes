@@ -2,6 +2,7 @@
 
 let show_ing = document.querySelector('.show_ing');
 let show_input = document.querySelector('.show_input');
+let search_menu = document.querySelector('.search_menu');
 show_ing.addEventListener('click', showInput);
 
 function showInput(){
@@ -31,6 +32,7 @@ function showInfoRecipes(){
     if(search_recipe.value.length > 0){
         info_search.style.display = 'flex';
         find_recipes.innerHTML += ' ' + search_recipe.value;
+        search_menu.style.top = "140px";
     }else{
         alert('Please enter recipe');
         info_search.style.display = 'none';
@@ -42,6 +44,7 @@ function showInfoIngredients(){
     if(search_ingredients.value.length > 0){
         info_search.style.display = 'flex';
         find_ingredients.innerHTML += ' ' + search_ingredients.value;
+        search_menu.style.top = "140px";
     }else{
         alert('Please enter ingredients');
     }
@@ -55,6 +58,7 @@ function hideInfo(){
     find_ingredients.innerHTML = 'ingredients';
     search_recipe.value = '';
     search_ingredients.value = '';
+    search_menu.style.top = "100px";
 }
 
 
