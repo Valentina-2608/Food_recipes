@@ -6,6 +6,12 @@ let recipes = [
         "ingredients": "prune, current, cherriesm raisins, citrus peel, cherry brandy, sugar, flower, eggs, lemon"
     },
     { 
+        "id":65,
+        "image":"img/banana_pancakes.jpg",
+        "caption": "Banana Pancakes",
+        "ingredients": "flour, sugar, baking powder, egg, milk, vegetable oil, bananas"
+    },
+    { 
         "id":62,
         "image":"img/crumble.jpg",
         "caption": "Roasted stone fruit crumble",
@@ -116,6 +122,12 @@ let recipes = [
         "ingredients": "green sweets peas, eggs, Cheddar cheese, mayonnaise, onion, black pepper"
      },
      { 
+        "id":80,
+        "image":"img/pumpkin_waffles.jpg",
+        "caption": "Pumpkin Waffles with Apple Cider Syrup",
+        "ingredients": "flour, baking powder, sugar, salt, ginger, canned pumpkin, eggs, milk, butter"
+    },
+     { 
         "id":18,
         "image":"img/pasta_salad.jpg",
         "caption": "Simple Pasta Salad",
@@ -147,6 +159,12 @@ let recipes = [
         "caption": "Honey Cake",
         "ingredients": "flour, baking powder, butter, honey, eggs, milk, orange zest, almond flakes, lemon juice, water"
     },
+    { 
+        "id":77,
+        "image":"img/quinoa_porridge.jpg",
+        "caption": "Quinoa Porridge",
+        "ingredients": "water, almond milk, quinoa, almond meal, brown sugar, vanilla extract"
+     },
      { 
         "id":21,
         "image":"img/smoked_chicken_drumsticks.jpg",
@@ -179,13 +197,30 @@ let recipes = [
         "caption": "Banana Banana Bread",
         "ingredients": "flour, soda, salt, butter, brown sugar, eggs, bananas"
     },
-    
+    { 
+        "id":71,
+        "image":"img/apricot_ham.jpg",
+        "caption": "Apricot Brown Sugar Ham",
+        "ingredients": "ham, brown sugar, apricot jam, dry mustard powder"
+     },
+    { 
+        "id":53,
+        "image":"img/ricotta_pancakes.jpg",
+        "caption": "Lemon-Ricotta Pancakes",
+        "ingredients": "milk, flour, ricotta cheese, vegetable oil, vanilla extract, butter,  lemon juice"
+    },
      
     { 
         "id":26,
         "image":"img/grapefruit_chicken.jpeg",
         "caption": "Roast Chicken with Grapefruit",
-        "ingredients": "red grapefruit, chicken, pepper, parsley, bacon, olive oil, cognac or brandy, "
+        "ingredients": "red grapefruit, chicken, pepper, parsley, bacon, olive oil, cognac or brandy"
+    },
+    { 
+        "id":71,
+        "image":"img/cheese_sandwich.jpg",
+        "caption": "Grilled Cheese Sandwich",
+        "ingredients": "white bread, butter, Cheddar cheese"
     },
     { 
         "id":59,
@@ -200,7 +235,18 @@ let recipes = [
         "caption": "Apple-Stuffed Turkey",
         "ingredients": "Turkey, vegetable oil, apples, unpeeled apples"
     },
-   
+    { 
+        "id":76,
+        "image":"img/polenta_porridge.jpg",
+        "caption": "Polenta Porridge",
+        "ingredients": "water, almond milk, polenta, almond meal, brown sugar, berries, cinnamon"
+     },
+    { 
+        "id":59,
+        "image":"img/tuna_sandwich.jpg",
+        "caption": "Tuna Egg Sandwich",
+        "ingredients": "eggs, tuna, celery, mayonnaise, pepper, bread"
+    },
     { 
         "id":4,
         "image":"img/sticky_pudding.jpg",
@@ -220,8 +266,12 @@ let recipes = [
         "ingredients": "orange juice, soy sauce, olive oil, parsley, lemon juice, garlic, fresh oregano, tuna steaks"
         
     },
-   
-  
+    { 
+        "id":70,
+        "image":"img/tangy_ham.jpg",
+        "caption": "Tangy Honey-Glazed Ham",
+        "ingredients": "ham, brown sugar, pineapple juice, honey, oranges, clove, lemon juice"
+     },
     { 
         "id":34,
         "image":"img/cedar_salmon.jpeg",
@@ -265,7 +315,12 @@ let recipes = [
         "caption": "Baked Flounder with Panko and Parmesan",
         "ingredients": "flounder fillets, butter, bread crumbs, Parmesan cheese, salt, ground black pepper"
     },
- 
+    { 
+        "id":78,
+        "image":"img/cinnamon_waffles.jpg",
+        "caption": "Cinnamon Belgian Waffles",
+        "ingredients": "flour, baking powder, sugar, cinnamon, salt, egg, buttermilk, butter, vanilla extract "
+    },
    
    
     { 
@@ -286,7 +341,12 @@ let recipes = [
         "caption": "Copycat Panera Broccoli Cheddar Soup",
         "ingredients": "butter, onion, flour, milk, chicken stock, broccoli florets, carrots, Cheddar cheese, pepper"
     },
-  
+    { 
+        "id":66,
+        "image":"img/pumpkin_pancakes.jpg",
+        "caption": "Simply Pumpkin Pancakes",
+        "ingredients": "flour, sugar, baking powder, milk, egg, pumpkin puree, vegatable oil"
+    },
     { 
         "id":45,
         "image":"img/fry_vegetables.jpg",
@@ -294,18 +354,17 @@ let recipes = [
         "ingredients": "broccoli, bell pepper, onion, carrots, mushrooms, garlic, olive oil"
     },
     { 
-        "id":46,
-        "image":"img/carrots.jpg",
-        "caption": "Perfect Sauteed Carrots",
-        "ingredients": "carrots, olive oil, fresh herbs, salt"
-    },
-    { 
         "id":47,
         "image":"img/parmesan_potatoe.jpg",
         "caption": "Parmesan Potato Wedges",
         "ingredients": "potatoes, butter, garlis powder, basil, Shredded Parmesan cheese"
     },
-   
+    { 
+        "id":79,
+        "image":"img/chocolate_waffles.jpg",
+        "caption": "Chocolate Waffles",
+        "ingredients": "flour, baking powder, sugar, salt, eggs, butter, milk, cocoa powder "
+    },
     { 
         "id":49,
         "image":"img/courgettes.jpg",
@@ -323,12 +382,6 @@ let recipes = [
         "image":"img/beetroot_curry.jpg",
         "caption": "Beetroot curry",
         "ingredients": "beets, cherry tomatoes, wild rice, lemon, coconut milk, onions, garlic, mustard seeds"
-    },
-    { 
-        "id":51,
-        "image":"img/panzarella.jpg",
-        "caption": "Roasted veg panzanella",
-        "ingredients": " anchovy fillets, garlic, olive oil, wine vinegar, tomatoes, capers, ciabatta, red peppers, artichokes"
     },
     { 
         "id":5,
@@ -382,11 +435,23 @@ let recipes = [
         "ingredients": "Chicken legs, salt, vegetable oil, coconut milk, garlic, pepper, cilantro, onion, ginger, lemon juice, sweet potato"
     },
     { 
+        "id":51,
+        "image":"img/panzarella.jpg",
+        "caption": "Roasted veg panzanella",
+        "ingredients": " anchovy fillets, garlic, olive oil, wine vinegar, tomatoes, capers, ciabatta, red peppers, artichokes"
+    },
+    { 
         "id":64,
         "image":"img/sponges.jpg",
         "caption": "Strawberry and cream sandwich sponge",
         "ingredients": "butter, sugar, vanilla extract, eggs,flour, cream, milk, baking powder, strawberries"
     },
+    { 
+        "id":69,
+        "image":"img/honey_ham.jpg",
+        "caption": "Honey Glazed Ham",
+        "ingredients": "ham, clove, dark corn syrup, honey, butter"
+     },
     { 
         "id":39,
         "image":"img/ham_soup.jpg",
@@ -404,6 +469,30 @@ let recipes = [
         "image":"img/lemon_chicken.jpg",
         "caption": "Italian Chicken with Garlic and Lemon",
         "ingredients": "chicken drumsticks, potatoes, wine vinegar, lemons, garlic, oregano, onion, parsley, salt, pepper"
-     }
+     },
+     { 
+        "id":68,
+        "image":"img/blueberry_pancakes.jpg",
+        "caption": "Lemon-Blueberry Pancakes",
+        "ingredients": "flour, milk, egg, butter, lemon, sugar, vegetable oil, baking powder, blueberries"
+     },
+     { 
+        "id":73,
+        "image":"img/chicken_sandwich.jpg",
+        "caption": "Hot Shredded Chicken Sandwiches",
+        "ingredients": "chicken, cream of mushroom soup, crackers, hamburger buns"
+     },
+     { 
+        "id":74,
+        "image":"img/banana_porridge.jpg",
+        "caption": "Chocolate Banana Oatmeal Porridge",
+        "ingredients": "water, oats, salt, brown sugar, banana, chocolate chips"
+     },
+     { 
+        "id":46,
+        "image":"img/carrots.jpg",
+        "caption": "Perfect Sauteed Carrots",
+        "ingredients": "carrots, olive oil, fresh herbs, salt"
+    },
 
     ]
