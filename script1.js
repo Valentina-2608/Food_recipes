@@ -33,6 +33,7 @@ function showInfoRecipes(){
         info_search.style.display = 'flex';
         find_recipes.innerHTML += ' ' + search_recipe.value;
         search_menu.style.top = "140px";
+        search_recipe.value = '';
     }else{
         alert('Please enter recipe');
         info_search.style.display = 'none';
@@ -45,6 +46,7 @@ function showInfoIngredients(){
         info_search.style.display = 'flex';
         find_ingredients.innerHTML += ' ' + search_ingredients.value;
         search_menu.style.top = "140px";
+        search_ingredients.value = '';
     }else{
         alert('Please enter ingredients');
     }
