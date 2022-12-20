@@ -191,6 +191,12 @@ let recipes = [
         "caption": "Greek Orzo Salad",
         "ingredients": "orzo pasta, cucumber, tomato, red onion, feta cheese, lemon juice, oregano, black olives, artichokes"
     },
+    { 
+        "id":83,
+        "image":"img/lemon_pie.jpg",
+        "caption": "Lemon Meringue Pie",
+        "ingredients": "flour, butter, sugar, water, lemons, eggs, yolks, pie crust, cornstarch"
+     },
      { 
         "id":53,
         "image":"img/banana_bread.jpg",
@@ -372,6 +378,12 @@ let recipes = [
         "ingredients": "mint, peas, ricotta cheese, cheddar cheese, lemon, cherry tomatoes, onions, basmati rice, olive oil"
     },
     { 
+        "id":84,
+        "image":"img/berry_pie.jpg",
+        "caption": "Cherry Blueberry Pie",
+        "ingredients": "flour, egg, pie crust, cornstarch, cinnamon, cherries, frozen blueberries, water, sugar"
+     },
+    { 
         "id":60,
         "image":"img/peach_salsa.jpg",
         "caption": "Easy Peach Salsa",
@@ -477,6 +489,12 @@ let recipes = [
         "ingredients": "flour, milk, egg, butter, lemon, sugar, vegetable oil, baking powder, blueberries"
      },
      { 
+        "id":81,
+        "image":"img/pumpkin_pie.jpg",
+        "caption": "Perfect Pumpkin Pie",
+        "ingredients": "pumpkin puree, eggs, milk, cinnamon, ginger, unbaked pie crusts, salt"
+     },
+     { 
         "id":73,
         "image":"img/chicken_sandwich.jpg",
         "caption": "Hot Shredded Chicken Sandwiches",
@@ -494,5 +512,11 @@ let recipes = [
         "caption": "Perfect Sauteed Carrots",
         "ingredients": "carrots, olive oil, fresh herbs, salt"
     },
+    { 
+        "id":82,
+        "image":"img/apple_pie.jpeg",
+        "caption": "Apple Pie",
+        "ingredients": "apples, flour, butter, sugar"
+     }
 
     ]
