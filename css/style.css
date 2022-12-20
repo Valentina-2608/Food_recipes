@@ -607,6 +607,10 @@ footer{
 }
 
 
+.dropdown:hover{
+    cursor:pointer;
+ }
+ 
 
 .block_search{
     width:100%;
@@ -725,3 +729,62 @@ li:hover{
   .dropdown:hover .dropdown-content {display: block;}
   
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+  #all_dishes{
+    background-color: darkred;
+    color:white;
+  }
+
+
+
+  /* Modal window All dishes */
+
+#block_dishes{
+    width:100%;
+    height:300px;
+    position:absolute;
+    top:160px;
+    left:0px;
+    display: block;
+    background-color:white;
+}
+
+.dishes_elements{
+    width:80%;
+    height:100%;
+    margin-left:10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.column{
+    width:20%;
+    height:70%;
+    margin-top:1%;
+    background-color: azure;
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+}
+
+.column > div{
+    height:25%;
+    font-size:20px;
+    display:flex;
+    align-items: center;
+}
+
+input[type="checkbox"]{
+    width:20px;
+    height:20px;
+    margin-right:10px;
+}
+
+label:hover{
+    cursor:pointer;
+}
+
+input[type="checkbox"]:hover{
+    cursor:pointer;
+}
