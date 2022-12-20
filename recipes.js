@@ -48,7 +48,12 @@ let recipes = [
         "caption": "Caesar Salad Supreme",
         "ingredients":"garlic, mayonnaise, Parmesan cheese, lemon juice, olive oil, day-old bread, anchovy fillets"
     },
-      
+    { 
+        "id":86,
+        "image":"img/basil_pasta.jpg",
+        "caption": "Tomato Basil Penne Pasta",
+        "ingredients": "olive oil, penne pasta, tomatoes, garlic, mozzarella cheese, Parmesan cheese, basil"
+    },
     { 
         "id":28,
         "image":"img/grill_turkey.jpg",
@@ -171,7 +176,12 @@ let recipes = [
         "caption": "Smoked Chicken Drumsticks",
         "ingredients": "chicken drumsticks, vegetable oil"
      },
-     
+     { 
+        "id":87,
+        "image":"img/seafood_pasta.jpeg",
+        "caption": "Cajun Seafood Pasta",
+        "ingredients": "fettuccine pasta, shrimps, scallops, whipping cream, Swiss cheese, Parmesan cheese, spices "
+    },
     { 
         "id":56,
         "image":"img/chocolate_banana_bread.jpg",
@@ -327,7 +337,12 @@ let recipes = [
         "caption": "Cinnamon Belgian Waffles",
         "ingredients": "flour, baking powder, sugar, cinnamon, salt, egg, buttermilk, butter, vanilla extract "
     },
-   
+    { 
+        "id":88,
+        "image":"img/bacon_pasta.jpg",
+        "caption": "Penne Pasta with Spinach and Bacon",
+        "ingredients": "penne pasta, olive oil, bacon, tomatoes, spinach, garlic "
+    },
    
     { 
         "id":41,
@@ -517,6 +532,12 @@ let recipes = [
         "image":"img/apple_pie.jpeg",
         "caption": "Apple Pie",
         "ingredients": "apples, flour, butter, sugar"
-     }
+     },
+     { 
+        "id":85,
+        "image":"img/pasta_fazool.jpg",
+        "caption": "Pasta Fazool",
+        "ingredients": "olive oil, tomato paste, macaroni,  Parmigiano-Reggiano cheese, spices, sweet bulk Italian sausage"
+    }
 
     ]
