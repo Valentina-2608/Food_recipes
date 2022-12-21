@@ -43,6 +43,18 @@ let recipes = [
         "ingredients":"ground chicken, egg, vegetable oil, liquid smoke flavoring, garlic powder, fresh basil"
     },
     { 
+        "id":94,
+        "image":"img/turkey_lasagna.jpg",
+        "caption": "Spinach and Turkey Lasagna",
+        "ingredients":"lasagna noodles, turkey breast,  olive oil, onions, tomato sauce, mushrooms, spices, ricotta cheese, mozzarella cheese"
+    },
+    { 
+        "id":89,
+        "image":"img/caramel_cheesecake.jpg",
+        "caption": "Caramel Macchiato Cheesecake",
+        "ingredients":"butter, cream cheese, sugar, eggs, sour cream, coffee, vanilla extract, whipped cream, caramel ice cream"
+    },
+    { 
         "id":11,
         "image":"img/caesar_salad.jpg",
         "caption": "Caesar Salad Supreme",
@@ -113,6 +125,12 @@ let recipes = [
         "image":"img/noodle_soup.jpg",
         "caption": "Incredibly Easy Chicken and Noodles",
         "ingredients": "chicken broth, chicken breast meat, onion powder, garlic powder,  frozen egg noodles"
+    },
+    { 
+        "id":95,
+        "image":"img/classic_lasagna.jpg",
+        "caption": "Classic Lasagna",
+        "ingredients":"lasagna noodles, olive oil, mushrooms, tomato sauce, spices, eggs, ricotta cheese, Parmesan cheese,  mozzarella cheese"
     },
     { 
         "id":8,
@@ -276,6 +294,12 @@ let recipes = [
         "ingredients": "butter, onion, flour, water, carrots, celery, chicken soup base, potatoes ,Cheddar cheese, cooked bacon"
     },
     { 
+        "id":92,
+        "image":"img/apple_cheesecake.jpg",
+        "caption": "Apple Cheesecake with Caramel Sauce",
+        "ingredients":"cream cheese, sugar, vanilla extract, eggs, caramel ice cream, halves, graham cracker"
+    },
+    { 
         "id":31,
         "image":"img/tuna_steak.jpg",
         "caption": "Marinated Tuna Steak",
@@ -349,6 +373,12 @@ let recipes = [
         "image":"img/vegetable_soup.jpg",
         "caption": "Vegetable Soup",
         "ingredients": "tomatoes, chicken broth, tomato-vegetable juice, carrots, potatoe, green beans, fresh corn kernels "
+    },
+    { 
+        "id":96,
+        "image":"img/chicken_lasagna.jpg",
+        "caption": "Chicken and Spinach Lasagna",
+        "ingredients":"lasagna noodles, heavy cream, Parmesan cheesem, olive oil, ricotta cheese, mozzarella cheese, chicken, spices"
     },
     { 
         "id":54,
@@ -492,6 +522,12 @@ let recipes = [
         "ingredients": "tomatoes, mozzarella cheese, olive oil, balsamic vinegar, black pepper, fresh basil"
     },
     { 
+        "id":91,
+        "image":"img/white_chocolate_cheesecake.jpg",
+        "caption": "White Chocolate Cheesecake with White Chocolate Brandy Sauce",
+        "ingredients":"white chocolate, cream cheese, sugar, flour, heavy cream, vanilla extract, brandy"
+    },
+    { 
         "id":24,
         "image":"img/lemon_chicken.jpg",
         "caption": "Italian Chicken with Garlic and Lemon",
@@ -538,6 +574,17 @@ let recipes = [
         "image":"img/pasta_fazool.jpg",
         "caption": "Pasta Fazool",
         "ingredients": "olive oil, tomato paste, macaroni,  Parmigiano-Reggiano cheese, spices, sweet bulk Italian sausage"
+    },
+    { 
+        "id":90,
+        "image":"img/white_cheesecake.jpg",
+        "caption": "White Chocolate Raspberry Cheesecake",
+        "ingredients":"cream cheese, sugar, eggs, vanilla extract, frozen raspberries, cornstarch, butter"
+    },
+    { 
+        "id":93,
+        "image":"img/spinach_lasagna.jpg",
+        "caption": "Spinach Lasagna",
+        "ingredients":"lasagna noodles, olive oil, onions, spinach, ricotta cheese, Romano cheese, mozzarella cheese, Parmesan cheese, spices"
     }
-
     ]
