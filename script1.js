@@ -149,3 +149,38 @@ let items = [];
 
 }
 
+
+
+/* Show modal with all dishes */
+
+let block_dishes = document.getElementById('block_dishes')
+let all_dishes = document.getElementById('all_dishes');
+all_dishes.addEventListener('click', showAllDishes);
+function showAllDishes(){
+    block_dishes.style.display = 'block';
+}
+
+
+/* Show modal with all ingredients */
+
+let block_ingredients = document.getElementById('block_ingredients')
+let all_ingredients = document.getElementById('all_ingredients');
+all_ingredients.addEventListener('click', showAllIngredients);
+function showAllIngredients(){
+    block_ingredients.style.display = 'block';
+}
+
+
+/* Close modal windows */
+
+let btn_cancel_1 = document.getElementById('btn_cancel_1');
+btn_cancel_1.addEventListener('click', closeModalDishes);
+function closeModalDishes(){
+    block_dishes.style.display = 'none';
+}
+
+let btn_cancel_2 = document.getElementById('btn_cancel_2');
+btn_cancel_2.addEventListener('click', closeModalIngredients);
+function closeModalIngredients(){
+    block_ingredients.style.display = 'none';
+}
