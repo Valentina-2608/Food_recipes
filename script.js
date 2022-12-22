@@ -25,3 +25,7 @@ function closeModal(){
 
 
 
+/* Show modal with all dishes */
+
+let all_dishes = document.getElementById('all_dishes');
+all_dishes.addEventListener('click', showAllDishes);
