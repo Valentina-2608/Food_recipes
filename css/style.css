@@ -802,7 +802,7 @@ input[type="checkbox"]:hover{
     position:absolute;
     top:160px;
     left:0px;
-    display: block;
+    display: none;
     background-color:white;
 }
 
